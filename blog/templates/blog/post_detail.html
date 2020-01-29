@@ -1,0 +1,7 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'blog/style.css' %}">
+
+<h1>{{ post.title }}</h1>
+<h2>by {{ post.author }}</h2>
+{{ post.content }}
